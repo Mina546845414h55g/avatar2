@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    min-width: 100%;
+    display: grid;
+    place-content: center;
+    font-family: 'Figtree',sans-serif;
+    font-weight:  500, 800;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid #000;
+    width:380px ;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px -2px #000;
+}
+
+.container .image img{
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.container .learn{
+    margin:0 0 10px 20px ;
+    background-color:hsl(47, 88%, 63%);
+    width:80px ;
+    height:30px;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.content{
+    margin-left: 20px;
+}
+
+.content p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.content h1{
+    font-size: 23px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 7%);
+}
+
+.content .prag{
+    margin-right: 20px;
+    font-size: 16px;
+    color:hsl(0, 0%, 42%) ;
+}
+
+.avatar{
+    margin-left: 20px ;
+    display: flex;
+}
+
+.avatar img{
+    width: 40px;
+    height: 39px;
+    margin-right: 10px;
+}
+
+.avatar b{
+    transform: translateY(10px);
+}
+
+.content h1:hover{
+    color:hsl(47, 88%, 63%) ;
+    cursor: pointer;
+}
